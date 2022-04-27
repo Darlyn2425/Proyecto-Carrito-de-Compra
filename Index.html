@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.jpg" id="logo" height="48px" width="48px">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Las Mejores Herramientas del País</h2>
+                        <P>Todo en Especial</P>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>100 Herramientas diferentes
+                    Explora nuestras nuevas Herramientas</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Un personal experto<br>
+                    Prueba las nuevas herramientas</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Herramientas de la mejor calidad<br>
+                    Explora nuestras mejores Herrmaientas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lista-platillos" class="container">
+        <h1 id="encabezado" class="encabezado">Pedidos en Linea</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/alicate.jpg" class="imagen-herramienta u-full-width">
+                    <div class="info-card">
+                        <h2>Alicate</h2>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$300 <span class="u-pull-right">$250</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Pinza cotorra.jpg" class="imagen-herramienta u-full-width">
+                    <div class="info-card">
+                        <h2>Pinza Cotorra</h2>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$250 <span class="u-pull-right">$200</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/taladro total.jpg" class="imagen-herramienta u-full-width">
+                    <div class="info-card">
+                        <h2>Taladro Total</h2>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$3000 <span class="u-pull-right">$2500</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/taladro.jpg" class="imagen-herramienta u-full-width">
+                    <div class="info-card">
+                        <h2>Taladro INGCO</h2>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$2000 <span class="u-pull-right">$2500</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/kit destonilladores.jpg" class="imagen-herramienta u-full-width">
+                    <div class="info-card">
+                        <h2>Destornilladores</h2>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$350<span class="u-pull-right">$275</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/escalera.jpg" class="imagen-herramienta u-full-width">
+                    <div class="info-card">
+                        <h2>Escalera Tijera</h2>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$2000 <span class="u-pull-right">$1500</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="#">Pedidos a domicilio</a>
+                        <a class="enlace" href="#">Pedidos en linea</a>
+                        <a class="enlace" href="#">Pedidos por telefono</a>
+                        <a class="enlace" href="#">Pedidos por whatsapp</a>
+                        <a class="enlace" href="#">Menu</a>
+                    </nav>
+                </div>
+                <div class="four colums">
+                    <nav class="menu">
+                        <a class="enlace" href="#">Surcusales</a>
+                        <a class="enlace" href="#">Instagram</a>
+                        <a class="enlace" href="#">Facebook</a>
+                        <a class="enlace" href="#">Ferreterias Asociadas</a>
+                        <a class="enlace" href="#">Telefonos</a>
+                    </nav>
+                </div>
+           </div>
+        </div>
+    </footer>
+</body>
+</html>
